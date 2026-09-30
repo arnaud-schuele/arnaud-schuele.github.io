@@ -44,7 +44,7 @@ Alongside my research, I have been working as a Senior Associate at the elea Fou
     title = "How do Impact Investors Compare to Traditional Funders? Insights from Africa"
     authors = "A. Schuele, I. Günther"
     link = "https://example.com/paper.pdf"
-    figure = "img/publications/placeholder.png"
+    figure = "img/publications/percentage_plot.png"
     abstract = """
     Impact investors pursue both financial and social objectives. Whether this leads to distinct investment behavior in low-income regions remains an open question. 
     Introducing a dataset of 19,131 private market transactions in Africa between 2015 and 2024, we document how impact investor portfolios differ from those of traditional capital providers and Development Finance Institutions (DFIs). 
