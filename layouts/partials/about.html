@@ -18,7 +18,7 @@
 
         </div>
         <div>
-          {{ with .Site.Params.bio }}{{ . | markdownify }}{{ else }}{{ .Content }}{{ end }}
+          <div class="mb-4">{{ with .Site.Params.bio }}{{ . | markdownify }}{{ else }}{{ .Content }}{{ end }}</div>
           {{ if .Site.Params.showSocializations }}
           <ul class="list-inline list-social-icons mb-0">
             {{ range .Site.Params.handles }}
