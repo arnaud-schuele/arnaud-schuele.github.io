@@ -26,7 +26,7 @@ sections = []
 # Short bio shown on the About page. Markdown is allowed (links, **bold**,
 # blank line for a new paragraph).
 bio = """
-Short bio goes here.
+I am a PhD Candidate at ETH Development Economics Group. My research examines the additionality of impact investments in low- and middle-income countries.
 """
 
 [[params.handles]]
