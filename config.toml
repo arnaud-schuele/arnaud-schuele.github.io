@@ -9,9 +9,8 @@ enableGitInfo = false
 disableKinds = ["taxonomy", "term", "RSS"]
 
 [params]
-# TODO: replace the placeholder values below with real details.
-address = "City, Country"
-email = "email@example.com"
+address = "Zürich, Switzerland"
+email = "arnaud.schuele@nadel.ethz.ch"
 favicon = "/favicon.ico"
 firstName = "Arnaud"
 lastName = "Schuele"
@@ -24,10 +23,23 @@ showSocializations = true
 # The homepage only shows the About section; publications live on /publications/.
 sections = []
 
-# TODO: set the real LinkedIn profile URL.
+# Short bio shown on the About page. Markdown is allowed (links, **bold**,
+# blank line for a new paragraph).
+# TODO: write the real bio.
+bio = """
+Short bio goes here.
+"""
+
+# Text shown under the "Research" title, above the list of publications.
+# Markdown is allowed. Leave empty to show nothing.
+# TODO: write the real research summary.
+researchIntro = """
+Short description of research interests goes here.
+"""
+
 [[params.handles]]
     name = "LinkedIn"
-    link = "https://www.linkedin.com/in/TODO/"
+    link = "https://www.linkedin.com/in/arnaud-schuele"
 
 [markup.goldmark.renderer]
   unsafe = true

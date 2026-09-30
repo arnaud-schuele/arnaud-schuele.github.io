@@ -1,5 +1,4 @@
 ---
 title: "Home"
 ---
-<!-- TODO: write a short bio. -->
-Short bio goes here.
+<!-- The bio is set with `bio` in config.toml. -->
