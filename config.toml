@@ -27,7 +27,7 @@ sections = []
 # blank line for a new paragraph).
 bio = """
 I am a PhD Candidate at ETH Zurich's Development Economics Group. My research examines the additionality of impact investments in low- and middle-income countries.
-Alongside my research, I work as a Senior Associate at the elea Foundation for Ethics in Globalization. Currently, I am spending a visiting research stay at Columbia University.
+Alongside my research, I have been working as a Senior Associate at the elea Foundation for Ethics in Globalization. Currently, I am spending a visiting research stay at Columbia University.
 """
 
 [[params.handles]]
