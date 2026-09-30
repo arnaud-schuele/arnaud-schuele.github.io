@@ -59,7 +59,7 @@ Alongside my research, I have been working as a Senior Associate at the elea Fou
     link = ""
     figure = "img/publications/placeholder.png"
     abstract = """
-Abstract of a paper with no public link yet.
+Work in progress.
 """
 
 [markup.goldmark.renderer]
