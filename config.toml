@@ -40,8 +40,8 @@ I am a PhD Candidate at ETH Development Economics Group. My research examines th
 # The abstract accepts Markdown.
 # TODO: replace the examples with real publications.
 [[params.publications]]
-    title = "Example Paper Title"
-    authors = "A. Schuele, Co-Author One, Co-Author Two"
+    title = "How do Impact Investors Compare to Traditional Funders? Insights from Africa"
+    authors = "A. Schuele, I. Günther"
     link = "https://example.com/paper.pdf"
     figure = "img/publications/placeholder.png"
     abstract = """
@@ -49,8 +49,8 @@ The abstract goes here. It can span several paragraphs.
 """
 
 [[params.publications]]
-    title = "Another Example Paper (No Link Yet)"
-    authors = "A. Schuele, Co-Author"
+    title = "Catalytic or Deterring? The Signaling Effects of Impact Investments in Africa"
+    authors = "A. Schuele, I. Günther"
     link = ""
     figure = "img/publications/placeholder.png"
     abstract = """
