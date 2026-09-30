@@ -10,13 +10,13 @@
         {{ with .link }}
           <p class="mb-3"><a href="{{ . }}" target="_blank" rel="noopener"><i class="fas fa-file-alt"></i> Paper</a></p>
         {{ end }}
+        {{ with .abstract }}<div class="publication-abstract mb-3">{{ . | markdownify }}</div>{{ end }}
         {{ $title := .title }}
         {{ with .figure }}
           <figure class="publication-figure mb-3">
             <img class="img-fluid" src="{{ strings.TrimPrefix "/" . | relURL }}" alt="Figure: {{ $title }}">
           </figure>
         {{ end }}
-        {{ with .abstract }}<div class="publication-abstract">{{ . | markdownify }}</div>{{ end }}
       </article>
     {{ end }}
   </div>
