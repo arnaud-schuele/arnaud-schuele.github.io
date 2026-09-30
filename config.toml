@@ -1,6 +1,7 @@
-# If the repo is renamed to arnaud-schuele.github.io, change this to
+# If the repo is renamed to arnaud-schuele.github.io, change this to 
+# Beofre: "https://arnaud-schuele.github.io/aschuele.github.io/"
 # "https://arnaud-schuele.github.io/".
-baseURL = "https://arnaud-schuele.github.io/aschuele.github.io/"
+baseURL = "https://arnaud-schuele.github.io/"
 title = "Arnaud Schuele"
 theme = "hugo-resume"
 locale = "en-us"
