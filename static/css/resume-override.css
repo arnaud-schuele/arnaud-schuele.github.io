@@ -6,13 +6,8 @@
   object-position: top;
 }
 
-.publication-authors,
-.publication-venue {
+.publication-authors {
   color: #6c757d;
-}
-
-.publication-venue {
-  font-style: italic;
 }
 
 .publication-figure img {

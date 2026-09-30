@@ -25,21 +25,37 @@ sections = []
 
 # Short bio shown on the About page. Markdown is allowed (links, **bold**,
 # blank line for a new paragraph).
-# TODO: write the real bio.
 bio = """
 Short bio goes here.
-"""
-
-# Text shown under the "Research" title, above the list of publications.
-# Markdown is allowed. Leave empty to show nothing.
-# TODO: write the real research summary.
-researchIntro = """
-Short description of research interests goes here.
 """
 
 [[params.handles]]
     name = "LinkedIn"
     link = "https://www.linkedin.com/in/arnaud-schuele"
+
+# Publications shown on the Research page, in the order listed here.
+# Copy a [[params.publications]] block for each paper. Every field except
+# title is optional: an empty link hides the "Paper" link, an empty figure
+# hides the image. Put figures in static/img/publications/.
+# The abstract accepts Markdown.
+# TODO: replace the examples with real publications.
+[[params.publications]]
+    title = "Example Paper Title"
+    authors = "A. Schuele, Co-Author One, Co-Author Two"
+    link = "https://example.com/paper.pdf"
+    figure = "img/publications/placeholder.svg"
+    abstract = """
+The abstract goes here. It can span several paragraphs.
+"""
+
+[[params.publications]]
+    title = "Another Example Paper (No Link Yet)"
+    authors = "A. Schuele, Co-Author"
+    link = ""
+    figure = "img/publications/placeholder.svg"
+    abstract = """
+Abstract of a paper with no public link yet.
+"""
 
 [markup.goldmark.renderer]
   unsafe = true
