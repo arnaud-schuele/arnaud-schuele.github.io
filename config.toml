@@ -43,7 +43,7 @@ Short bio goes here.
     title = "Example Paper Title"
     authors = "A. Schuele, Co-Author One, Co-Author Two"
     link = "https://example.com/paper.pdf"
-    figure = "img/publications/placeholder.svg"
+    figure = "img/publications/placeholder.png"
     abstract = """
 The abstract goes here. It can span several paragraphs.
 """
@@ -52,7 +52,7 @@ The abstract goes here. It can span several paragraphs.
     title = "Another Example Paper (No Link Yet)"
     authors = "A. Schuele, Co-Author"
     link = ""
-    figure = "img/publications/placeholder.svg"
+    figure = "img/publications/placeholder.png"
     abstract = """
 Abstract of a paper with no public link yet.
 """
