@@ -54,7 +54,7 @@ Impact investors pursue both financial and social objectives. Whether this leads
     title = "Catalytic or Deterring? The Signaling Effects of Impact Investments in Africa"
     authors = "A. Schuele, I. Günther"
     link = ""
-    figure = "img/publications/placeholder.png"
+    #figure = "img/publications/placeholder.png"
     abstract = """
 Work in progress.
 """
@@ -63,7 +63,7 @@ Work in progress.
     title = "Impact Investors and Aid Shocks: Evidence from the USAID Funding Cuts in Developing Countries"
     authors = "A. Schuele, I. Günther"
     link = ""
-    figure = "img/publications/placeholder.png"
+    #figure = "img/publications/placeholder.png"
     abstract = """
 Work in progress.
 """
