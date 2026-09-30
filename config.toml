@@ -59,5 +59,14 @@ Impact investors pursue both financial and social objectives. Whether this leads
 Work in progress.
 """
 
+[[params.publications]]
+    title = "Impact Investors and Aid Shocks: Evidence from the USAID Funding Cuts in Developing Countries"
+    authors = "A. Schuele, I. Günther"
+    link = ""
+    figure = "img/publications/placeholder.png"
+    abstract = """
+Work in progress.
+"""
+
 [markup.goldmark.renderer]
   unsafe = true
