@@ -1,0 +1,20 @@
+/* Crop the portrait photo into a circle instead of stretching it. */
+#sideNav .navbar-brand .img-profile {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  object-position: top;
+}
+
+.publication-authors,
+.publication-venue {
+  color: #6c757d;
+}
+
+.publication-venue {
+  font-style: italic;
+}
+
+.publication-figure img {
+  max-height: 22rem;
+}

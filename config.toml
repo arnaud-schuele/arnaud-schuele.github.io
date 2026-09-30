@@ -5,10 +5,8 @@ title = "Arnaud Schuele"
 theme = "hugo-resume"
 locale = "en-us"
 defaultContentLanguage = "en"
-PygmentsCodeFences = true
-PygmentsCodeFencesGuessSyntax = true
-PygmentsStyle = "monokai"
 enableGitInfo = false
+disableKinds = ["taxonomy", "term", "RSS"]
 
 [params]
 # TODO: replace the placeholder values below with real details.
@@ -17,50 +15,19 @@ email = "email@example.com"
 favicon = "/favicon.ico"
 firstName = "Arnaud"
 lastName = "Schuele"
-phone = ""
-profileImage = "img/profile3.jpg"
-showQr = true
-showContact = true
+profileImage = "img/profile.jpg"
+showQr = false
+showContact = false
 showBoards = false
 showCertifications = false
 showSocializations = true
-sections = ["skills","publications","creations","contributions","experience","education","blog"]
-vcardfields = [
-    "name",
-    "image",
-    "org",
-    "email",
-    "workemail",
-    "phone",
-    "url",
-    "title"
-]
+# The homepage only shows the About section; publications live on /publications/.
+sections = []
 
-# TODO: add, remove or update social links.
-[[params.handles]]
-    name = "GitHub"
-    link = "https://github.com/arnaud-schuele/"
-
+# TODO: set the real LinkedIn profile URL.
 [[params.handles]]
     name = "LinkedIn"
     link = "https://www.linkedin.com/in/TODO/"
-
-[outputs]
-home = ["HTML", "JSON"]
-
-[taxonomies]
-tag = "tags"
-
-[mediaTypes]
-  [mediaTypes."text/vcard"]
-    suffixes = ["vcf"]
-
-[outputFormats]
-  [outputFormats.VCard]
-    mediaType = "text/vcard"
-    baseName = "contact"
-    isPlainText = true
-    notAlternative = true
 
 [markup.goldmark.renderer]
   unsafe = true
